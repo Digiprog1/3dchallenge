@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Object</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="dimg">
+
+            </div>
+            <ul>
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <!-- An aside -->
+        <!-- This is for holding the 3D Object -->
+        <div id="aSide">
+            <div id="icons">
+                <div id="iconsLogo">
+                   
+                </div>
+            </div>
+            <!-- 3D objsect -->
+            <!-- This inserts the 3D object inside the aside container -->
+            <model-viewer src="/assets/dodge_charger_daytona_1969_custom_one.glb" alt="Vintage Dodge" auto-rotate
+                camera-controls ar ios-src="/assets/dodge_charger_daytona_1969_custom_one.glb"></model-viewer>
+        </div>
+    
+
+    <!-- Content container -->
+    <!-- This is for holding some brief description about the 3D Object -->
+    <div id="content">
+        <h2>Stylish and Classic Car</h2>
+        <p>Talk about Vintage at its best, Dodge Charger Daytona</p>
+        <button type="button">Click here for more</button>
+    </div>
+    <!-- Social media icons -->
+    <!-- This is for holding some company's social media icons and related links -->
+
+</div>
+</body>
+
+</html>
